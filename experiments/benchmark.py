@@ -377,7 +377,8 @@ if __name__ == "__main__":
         'stress-strain-lot-max-0.2': 1.0,
         'tacrolimus_visit_12': 12.5,
         'sine_trans_200_20': 1.0, # it was 3.0 for some reason but I think it was a typo
-        'beta_900_20': 1.0
+        'beta_900_20': 1.0,
+        'beta-sin_3000_20': 1.0
     }
 
     tts_n_features = {
@@ -389,7 +390,8 @@ if __name__ == "__main__":
         'stress-strain-lot-max-0.2': 10,
         'tacrolimus_visit_12': 9,
         'sine_trans_200_20': 1,
-        'beta_900_20': 2
+        'beta_900_20': 2,
+        'beta-sin_3000_20': 3
     }
 
     rnn_max_len = {
@@ -402,6 +404,7 @@ if __name__ == "__main__":
         'tacrolimus_visit_12': 11,
         'sine_trans_200_20': 20,
         'beta_900_20': 20,
+        'beta-sin_3000_20': 20,
     }
 
     if args.validate:
