@@ -1,3 +1,5 @@
 # TIMEVIEW-QS
 
-A Qualitative Similarity extension of TIMEVIEW.
+Qualitative Similarity extension for the paper: "Kacprzyk, K., Liu, T. & van der Schaar, M. Towards Transparent Time Series Forecasting. The Twelfth International Conference on Learning Representations (2024)."
+
+
